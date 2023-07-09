@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bootstrap registration</title>
+    <meta charset="UTF-8">
+    <link rel=”stylesheet” type="text/css" href=”css/bootstrap.min.css”>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a class="active" href="/">Shop</a></li>
+                <li class="main-header__item"><a href="/admin/add-product">Add Product</a></li>
+                <li class="main-header__item"><a href="/contact">Contact Us</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container"> 
+        <div class="row">
+            <div class="col-mid-6 col-mid-offset-3" id="form">
+                <center><b class="registration">Registration form</b></center>
+                <p class="para">Intrested people can book there slot here</p>
+                <form action="/sucess" method="POST">
+                    <div class="form-group"> 
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control text placeholder="enter name"><br>
+                        <br>
+                    </div>
+                    <div class="form-group"> 
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control text placeholder="enter email"><br>
+                        <br>
+                    </div>
+                    
+                   
+                <button class="btn">get call</button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
