@@ -5,9 +5,9 @@ const path = require('path')
 
 const router = express.Router();
 
-router.get('/contact', (req, res, next) => {
-    res.sendFile(path.join(__dirname,'../', 'views', 'contact.html'))
-  });
+const controllercontact = require('../controllers/products')
+
+router.get('/contact', controllercontact.contactus);
 
   router.post('/success', (req, res, next) => {
     console.log(req.body); 
